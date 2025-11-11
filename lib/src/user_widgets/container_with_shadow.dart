@@ -11,7 +11,7 @@ class ContainerWithShadow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: Responsive.isMobile(context) ? MediaQuery.of(context).size.width - 40 : width,
-      padding: const EdgeInsets.all(48),
+      padding: const EdgeInsets.all( Responsive.isMobile(context) ? 24 : 48),
       margin: EdgeInsets.symmetric(horizontal: Responsive.isMobile(context) ? 20 : 0),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(30),
