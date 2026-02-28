@@ -15,7 +15,7 @@ class G365User {
       G365Application.merchant: {'dark': 'assets/svg/merchant_dark.svg', 'light': 'assets/svg/merchant_light.svg'},
       G365Application.firm: {'dark': 'assets/svg/firm_dark.svg', 'light': 'assets/svg/firm_light.svg'},
       G365Application.employeePortal: {'dark': 'assets/svg/payroll_dark.svg', 'light': 'assets/svg/payroll_light.svg'},
-
+      G365Application.contractorPortal: {'dark': 'assets/svg/payroll_dark.svg', 'light': 'assets/svg/payroll_light.svg'},
     },
     "staging": {
       G365Application.accounting: {'dark': 'assets/svg/accounting_dark.svg', 'light': 'assets/svg/accounting_light.svg'},
@@ -23,6 +23,7 @@ class G365User {
       G365Application.merchant: {'dark': 'assets/svg/merchant_dark.svg', 'light': 'assets/svg/merchant_light.svg'},
       G365Application.firm: {'dark': 'assets/svg/firm_dark.svg', 'light': 'assets/svg/firm_light.svg'},
       G365Application.employeePortal: {'dark': 'assets/svg/payroll_dark.svg', 'light': 'assets/svg/payroll_light.svg'},
+      G365Application.contractorPortal: {'dark': 'assets/svg/payroll_dark.svg', 'light': 'assets/svg/payroll_light.svg'},
     },
     "production": {
       G365Application.accounting: {'dark': 'assets/svg/accounting_dark.svg', 'light': 'assets/svg/accounting_light.svg'},
@@ -30,6 +31,7 @@ class G365User {
       G365Application.merchant: {'dark': 'assets/svg/merchant_dark.svg', 'light': 'assets/svg/merchant_light.svg'},
       G365Application.firm: {'dark': 'assets/svg/firm_dark.svg', 'light': 'assets/svg/firm_light.svg'},
       G365Application.employeePortal: {'dark': 'assets/svg/payroll_dark.svg', 'light': 'assets/svg/payroll_light.svg'},
+      G365Application.contractorPortal: {'dark': 'assets/svg/payroll_dark.svg', 'light': 'assets/svg/payroll_light.svg'},
     },
   };
 }
@@ -38,4 +40,4 @@ enum LogoType { dark, light }
 
 enum G365Environment { development, staging, production }
 
-enum G365Application { accounting, payroll, merchant, firm, employeePortal }
+enum G365Application { accounting, payroll, merchant, firm, employeePortal, contractorPortal }
